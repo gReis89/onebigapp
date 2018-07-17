@@ -1,0 +1,21 @@
+.menu-header {
+  padding-top: 20px;
+}
+.menu-header .logo {
+  color: var(--white);
+}
+.menu-header .logo span {
+  margin-left: 15px;
+  font-family: var(--steps-font);
+  font-size: 16px;
+}
+.menu-header ul {
+  margin: 5px 0 0 0;
+}
+.menu-header li {
+  list-style: none;
+  display: inline-block;
+}
+.menu-header .btn-holder .btn-outlined {
+  margin-left: 20px;
+}
