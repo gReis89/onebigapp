@@ -28,6 +28,10 @@ body h1 {
   font-weight: 200;
 }
 
+body h1 span {
+  font-size: 48px;
+}
+
 body h1 strong {
   font-size: 48px;
   font-weight: bold;
@@ -69,6 +73,14 @@ body a {
 }
 
 /* STYLES */
+input:hover, input:focus {
+  outline: none;
+}
+
+input[type='button'] {
+  cursor: pointer;
+}
+
 .small-text {
   font-size: 12px;
 }

@@ -4,6 +4,7 @@ import facebook from 'assets/images/facebook.svg'
 import twitter from 'assets/images/twitter.svg'
 import instagram from 'assets/images/instagram.png'
 import youtube from 'assets/images/youtube.png'
+import Newsletter from 'common/Newsletter'
 import './LandingBottom.css'
 
 export const LandingBottom = () => (
@@ -24,6 +25,7 @@ export const LandingBottom = () => (
       </div>
       <div className='col text-center logo-bottom'><img src={logoBlue} alt='oneapp blue logo' /></div>
       <div className='col-5'>
+        <Newsletter />
       </div>
     </div>
   </div>

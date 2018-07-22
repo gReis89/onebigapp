@@ -18,3 +18,9 @@
 .logo-bottom {
   padding-top: 76px;
 }
+
+.landing-bottom .newsletter-component {
+  position: absolute;
+  right: 0;
+  top: 81px;
+}

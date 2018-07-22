@@ -12,7 +12,7 @@ export class TalentLanding extends Component {
     console.log(this.props.match)
     return (
       <div>
-        <LandingTop>
+        <LandingTop match={this.props.match}>
           <MenuHeader match={this.props.match} />
         </LandingTop>
         <SignupBanner />
