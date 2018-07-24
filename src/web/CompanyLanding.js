@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import {PropTypes} from 'prop-types'
 import MenuHeader from 'common/MenuHeader/'
 import LandingTop from './components/LandingTop'
-import Ednos from './components/Ednos'
+// import Ednos from './components/Ednos'
 import LandingBottom from './components/LandingBottom'
 import SignupBanner from './components/SignupBanner'
 import PreparationBanner from './components/PreparationBanner'
@@ -23,7 +23,7 @@ export class CompanyLanding extends Component {
         <ApplicationBanner />
         <InterviewsBanner />
         <SubscribeBanner />
-        <Ednos />
+        {/*<Ednos />*/}
         <LandingBottom />
       </div>
     )

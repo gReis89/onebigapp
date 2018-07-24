@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import {PropTypes} from 'prop-types'
 import MenuHeader from 'common/MenuHeader/'
 import LandingTop from './components/LandingTop'
-import Ednos from './components/Ednos'
+// import Ednos from './components/Ednos'
 import LandingBottom from './components/LandingBottom'
 import SignupBanner from './components/SignupBanner'
 import './TalentLanding.css'
@@ -16,7 +16,7 @@ export class TalentLanding extends Component {
           <MenuHeader match={this.props.match} />
         </LandingTop>
         <SignupBanner />
-        <Ednos />
+        {/*<Ednos />*/}
         <LandingBottom />
       </div>
     )

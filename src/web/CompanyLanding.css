@@ -81,8 +81,11 @@
 }
 
 .subscribe-banner {
-  height: 1010px;
   background: var(--pastel-orange);
+}
+
+.subscribe-banner .container {
+  height: 1010px;
 }
 
 .profession-list {

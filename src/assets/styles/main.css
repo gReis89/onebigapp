@@ -52,6 +52,10 @@ body h4 {
   font-size: 22px;
 }
 
+body h6 {
+  font-weight: bold;
+}
+
 body a {
   color: var(--main-blue)
 }
@@ -70,6 +74,15 @@ body a {
   border: solid 1px var(--white);
   color: var(--white);
   font-size: 12px;
+}
+.btn.btn-orange {
+  border-radius: 10px;
+  background: var(--pastel-orange);
+  box-shadow: 0 4px 10px 0 rgba(203, 203, 203, 0.6);
+  color: var(--white);
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px;
 }
 
 /* STYLES */
